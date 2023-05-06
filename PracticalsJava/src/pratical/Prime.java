@@ -1,4 +1,4 @@
-//To check if a number is prime or not , by taking the number as input from the keyboard
+//To check if a number is prime or not , by taking the number as input from the keyboard:Practical-4
 package pratical;
 import java.util.Scanner;
 class Prime{
