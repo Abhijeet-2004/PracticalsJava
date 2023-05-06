@@ -1,4 +1,4 @@
-//To convert a decimal to binary number
+//To convert a decimal to binary number :Practical-3
 package pratical;
 import java.util.Scanner;
 public class DecToBinary {
