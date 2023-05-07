@@ -1,3 +1,5 @@
+/*To find the sum of any number of integers interactively ,i.e ., entering evey number from the keyboard ,
+whereas the total number of integers is given as a command line argument : Program-5 */
 package pratical;
 import java.util.Scanner;
 public class SumExample {
