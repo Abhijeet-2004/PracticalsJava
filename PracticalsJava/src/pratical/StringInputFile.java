@@ -6,15 +6,12 @@ package pratical;
 import java.util.Scanner;
 
 public class StringInputFile {
-private String str;
-public void setStr(String str) {
-	this.str=str;
-}
-public String getStr() {
+public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter a String:");
-	setStr(sc.nextLine());
+	String str;
+	System.out.println("Enter a string:");
+	str=sc.nextLine();
+	StringDisplay.display(str);
 	sc.close();
-	return str;
 }
 }

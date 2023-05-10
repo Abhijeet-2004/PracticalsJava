@@ -1,7 +1,6 @@
 package pratical;
 public class StringDisplay {
-public static void main(String[] args) {
-	StringInputFile obj=new StringInputFile();
-	System.out.println("String is:"+obj.getStr());
-}
+public static void display(String s) {
+	System.out.println("Entered String is:"+s);
+	}
 }
