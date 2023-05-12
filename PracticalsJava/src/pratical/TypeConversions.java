@@ -8,7 +8,7 @@ static public void showNumber(int num) {
 	System.out.println("Integer number is:"+num);
 }
 static public void showNumber(double num) {
-	System.out.println("double number is:"+num);
+	System.out.println("Double number is:"+num);
 }
 public static void main(String[] args) {
 	int num1=5;
