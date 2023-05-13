@@ -2,18 +2,17 @@ package pratical.SubPackage.SubSubPackage;
 
 	public class Fibonacci {
 		public static void FibonaciGenerator(int n) {
-			System.out.println("First "+n+" fibonacci numberes are :");
-			for(int i=0;i<n;i++) {
-				System.out.print(fibo(i)+" ");
+			int arr[]=new int[n];
+			arr[0]=0;
+			arr[1]=1;
+			for(int i=2;i<arr.length;i++) {
+				arr[i]=arr[i-1]+arr[i-2];
 			}
-		}
-		private static int fibo(int num) {
-			if(num==0)
-				return 0;
-			else if(num==1)
-				return 1;
-			else 
-				return fibo(num-1)+fibo(num-2);
+			System.out.println("First "+n+" fibonacci numberes are :");
+			for(int i:arr) {
+				System.out.print(i+" ");
+			}
+			
 		}
 	}
 
